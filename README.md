@@ -7,7 +7,7 @@ This gem can print simple statistics on your factory_girl factories when using r
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'factory_stats', require: false
+gem 'factory_stats', require: false, :github => 'liefery/factory_stats'
 ```
 
 And then execute:
