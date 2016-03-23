@@ -25,6 +25,7 @@ require 'factory_stats' if ENV['FACTORY_STATS']
     $ FACTORY_STATS=1 rspec
     
 Example output:
+```
 -- Address factory calls: --
 create: 1100
  10.370000   1.640000  11.010000 ( 13.088933)
@@ -38,7 +39,7 @@ build_stubbed: 9
   0.040000   0.000000   0.040000 (  0.031224)
 build: 69
   0.110000   0.010000   0.120000 (  0.217152)
-
+```
 The output times are generated with: http://ruby-doc.org/stdlib-2.3.0/libdoc/benchmark/rdoc/Benchmark.html#method-c-benchmark
 
 ## License
